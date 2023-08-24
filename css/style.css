@@ -1,0 +1,71 @@
+:root{
+    --light-black-color:#626262;
+    --dark-white-color:#B4AD9E;
+    --very-dark-white-color:#7D7D7D;
+    --blue-color:#03A9F4;
+    --white-color:#FFFFFF;
+    
+}
+
+.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:Light;
+}
+
+
+body {
+font-family: 'Playfair Display', serif;
+    font-weight:Regular;
+    font-size: 14px;
+font-style: normal;
+line-height: normal;
+  
+}
+
+ul{
+    list-style-type:none;
+}
+
+.header-link{
+    color:var(--very-dark-white-color);
+    text-decoration:none;
+    font-size: 14px;
+
+    
+}
+.header-link:hover{
+    color:var(--blue-color);
+    text-decoration:none;
+    font-size: 14px;
+    
+}
+
+.galery-image{
+    width: 420px;
+    height: 280px;
+    flex-shrink: 0;
+
+}
+
+.galery-title{
+    color: var(--light-black-color);
+    font-size: 30px;
+    font-style: normal;
+    line-height: normal;
+    
+}
+.galery-paragraph{
+    color: var(--light-black-color);
+}
+
+.galery-button{
+    background-color: var(--white-color);
+    color: var(--light-black-color);
+    border-color: var(--light-black-color);
+    border-radius:1px;
+}
+.galery-div{
+    color: var(--dark-white-color);
+font-family: Ubuntu;
+}
+
